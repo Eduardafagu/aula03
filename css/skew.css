@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+  padding:0;
+box-sizing: border-box;
+}
+
+html, body {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 3rem;
+  border-radius: 3rem;
+  background: #f8f8f8;
+}
+
+.wrapper-boxes {
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:5rem;
+}
+
+.box {
+  width: 5rem;
+  height: 5rem;
+  background: crimson;
+
+}
+
+.box-item {
+  width: 5rem;
+  height: 5rem;
+  background: #740017;
+}
+
+.skew-x-negativo {
+  transform: skewX(-25deg);
+}
+
+.skew-y-negativo {
+  transform: skewY(-25deg);
+}
+
+.skew-xy-negativo {
+  transform: skew(-25deg, -25deg);
+}
+
+.skew-x-positivo {
+  transform: skewX(25deg);
+}
+.skew-y-positivo {
+  transform: skewY(25deg);
+}
+.skew-xy-positivo {
+  transform: skew(25deg, 25deg);
+}
+
+
+.matize1-x-positivo{
+  transform: skew(25deg) ;
+}
+
+.matize2-y-positivo {
+transform: skew(25deg);
+}
+
+.matize3-xy-positivo{
+  transform: skew(25deg,25deg);
+
+}
+
